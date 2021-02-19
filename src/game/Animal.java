@@ -4,6 +4,10 @@ public class Animal {
      public String gender;
      public int health;
 
+     public Animal(){
+
+     }
+
      public Animal(String name){
          this.name = name;
      }
