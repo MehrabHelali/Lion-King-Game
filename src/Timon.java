@@ -1,17 +1,13 @@
 import game.Animal;
 
      public class Timon extends Animal {
-
-
          public Timon() {
-             super("Simba");
-             getGender("Male");
-             getHealth(100);
-
-
+             Timon timon = new Timon();
+             timon.setName("Scar");
+             timon.setGender("Male");
+             timon.setHealth(100);
          }
 
-         private void getGender(String male) {
-             this.gender = gender;
-         }
-}
+     }
+
+

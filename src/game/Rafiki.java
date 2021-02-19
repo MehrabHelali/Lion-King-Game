@@ -5,14 +5,12 @@ public class Rafiki extends Animal {
 
 
     public Rafiki() {
-        super("Simba");
-        getGender("Female");
-        getHealth(100);
+        Rafiki rafiki = new Rafiki();
+        rafiki.setName("Scar");
+        rafiki.setGender("Male");
+        rafiki.setHealth(100);
+
 
 
     }
-
-    private void getGender(String female) {
-    }
-
 }
