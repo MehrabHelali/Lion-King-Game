@@ -12,5 +12,5 @@ public class BadLion extends Animal {
 
     private String getGender(String gender) {
         return gender;
-    }
+    } qweqwe
 }
