@@ -5,6 +5,7 @@ public class Food {
     String lionEats = "Meat" ;
     String timonEats = "Insects";
     String rafikiEats = "BaobFruit";
+    int foodAmount;
 
     public Food(){
     }
@@ -39,5 +40,13 @@ public class Food {
 
     public String getTimonEats() {
         return timonEats;
+    }
+
+    public int getFoodAmount() {
+        return foodAmount;
+    }
+
+    public void setFoodAmount(int foodAmount) {
+        this.foodAmount = foodAmount;
     }
 }
