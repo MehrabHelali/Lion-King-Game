@@ -8,8 +8,10 @@ public class Animal {
 
      }
 
-     public Animal(String name){
+     public Animal(String name,String gender, int health){
          this.name = name;
+         this.gender = gender;
+         this.health = health;
      }
 
     public void setName(String name) {
@@ -26,10 +28,7 @@ public class Animal {
 
     public int getHealth(int i) {
         return health;
-    }
 
-    public String getGender(String male, String female) {
-        return gender;
     }
 
     public String getName() {

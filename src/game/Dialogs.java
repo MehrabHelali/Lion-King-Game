@@ -46,5 +46,15 @@ public class Dialogs {
         return choice < 1 || choice > options.length ?
                 menu(menuName, options) : choice;
     }
+    static public void howTheGameWorks(){
+        System.out.printf("The Helping Menu",
+                "How the game works: ",
+                "1. You buy an animal, you need to keep it alive by feeding it.",
+                "2.You can breed 2 animals togheter, but only if their are of the same breed type",
+                "3.When breeding 2 animals you have a 50% chance to get the animals babys, these babies have value",
+                "4.You can buy food for your animal, but keep in mind that certain animals can eat certain food.",
+                "5. You can sell your animal, but you will get back  the amount money  "
+        );
+    }
 
 }
